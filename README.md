@@ -1,4 +1,4 @@
-# PlacesSearchHomework
+# PlacesSearch
 Search nearby venues using Foursquare Search API (https://location.foursquare.com/) 
 
 ## Dependencies

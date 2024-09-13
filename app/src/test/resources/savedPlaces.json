@@ -1,0 +1,24 @@
+[
+  {
+    "namespace": "my_places",
+    "id": "4bb687ee2f70c9b6c0978530",
+    "placeName": "C & D Drive-In",
+    "placeAddress": "103 N Main St, Boardman, OR 97818",
+    "placeDistance": "2617"
+  },
+  {
+    "namespace": "my_places",
+    "id": "4bde4c2dffdec928de6ce8a1",
+    "placeName": "Circle K",
+    "placeAddress": "101 N Main St, Boardman, OR 97818",
+    "placeDistance": "2503"
+  },
+  {
+    "namespace": "my_places",
+    "id": "55c7b1a7498e3f3d66262a36",
+    "placeName": "Subway",
+    "placeAddress": "115 SE Front St, Boardman, OR 97818",
+    "placeDistance": "2513"
+  }
+
+]

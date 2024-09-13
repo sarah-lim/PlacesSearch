@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PlaceSearch</string>
+    <string name="access_granted">access granted</string>
+    <string name="only_approximate_location_access_granted">Only approximate location access granted.</string>
+    <string name="permission_denied_please_enable_location_permission_to_continue">Permission denied. Please enable Location permission to continue</string>
+    <string name="distance">Distance : %1$s</string>
+</resources>

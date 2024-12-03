@@ -29,24 +29,6 @@ class MainViewModelTest {
     private val searchManager = mockk<SearchManager>()
     private val sharedPrefs = mockk<SharedPrefs>()
 
-    @Before
-    fun setup() {
-
-    }
-
-    @Test
-    fun getState() {
-
-    }
-
-    @Test
-    fun getShowError() {
-
-    }
-
-    @Test
-    fun onSearchQueryChanged() {
-    }
 
     @Test
     fun `get_nearby_places_from_saved_success`() = runTest{

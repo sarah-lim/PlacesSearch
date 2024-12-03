@@ -25,7 +25,7 @@ val placesModule = module {
             .addInterceptor(interceptor)
             .addInterceptor { chain ->
                 val newRequest = chain.request().newBuilder()
-                    .addHeader("Authorization", "{API_KEY}")
+                    .addHeader("Authorization", "fsq3/ZiffMFWRrtCs9wqaP/RH6ZaBEQv2KhBS1EvWXoSR8E=")
                     .build()
                 chain.proceed(newRequest)
             }

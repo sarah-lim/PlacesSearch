@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.slim.placesearch"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.slim.placesearch"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -42,7 +42,7 @@ android {
         buildConfig = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
+        kotlinCompilerExtensionVersion = "1.5.15"
     }
     packaging {
         resources {
@@ -69,33 +69,33 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.9.0-RC.2")
+    testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.9.0")
     testImplementation ("org.mockito.kotlin:mockito-kotlin:3.2.0")
     testImplementation ("io.mockk:mockk:1.13.12")
 
     // constraint layout
-    implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")
+    implementation("androidx.constraintlayout:constraintlayout-compose:1.1.0")
 
     // Search Bar
-    implementation("androidx.compose.material3:material3:1.3.0")
+    implementation("androidx.compose.material3:material3:1.3.1")
 
     // logging
     implementation ("com.jakewharton.timber:timber:5.0.1")
 
-    implementation("io.insert-koin:koin-android:4.0.0-RC2")
-    implementation("io.insert-koin:koin-androidx-compose:4.0.0-RC2")
-    implementation("io.insert-koin:koin-androidx-navigation:4.0.0-RC2")
+    implementation("io.insert-koin:koin-android:4.0.0")
+    implementation("io.insert-koin:koin-androidx-compose:4.0.0")
+    implementation("io.insert-koin:koin-androidx-navigation:4.0.0")
 
     // retrofit
-    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:retrofit:2.11.0")
     // gson converter
-    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
-    implementation ("com.squareup.okhttp3:logging-interceptor:4.10.0")
-    implementation("com.google.code.gson:gson:2.8.9")
+    implementation ("com.squareup.retrofit2:converter-gson:2.11.0")
+    implementation ("com.squareup.okhttp3:logging-interceptor:4.12.0")
+    implementation("com.google.code.gson:gson:2.11.0")
 
-    implementation("androidx.appsearch:appsearch:1.1.0-alpha03")
-    implementation("androidx.appsearch:appsearch-local-storage:1.1.0-alpha03")
-    kapt("androidx.appsearch:appsearch-compiler:1.1.0-alpha03")
+    implementation("androidx.appsearch:appsearch:1.1.0-alpha06")
+    implementation("androidx.appsearch:appsearch-local-storage:1.1.0-alpha06")
+    kapt("androidx.appsearch:appsearch-compiler:1.1.0-alpha06")
 
 }
 
